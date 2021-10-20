@@ -1,0 +1,3 @@
+En esta carpeta vamos a incluir las imagenes que se van a ve en la Web del proyecto.
+
+Al finalizar, borren este archivo
