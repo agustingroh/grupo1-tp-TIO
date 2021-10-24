@@ -1,6 +1,6 @@
 table{
    color:gray; 
-   border: solid 1px black;
+   border: solid 2px black;
 }
 
 th, td{
@@ -10,4 +10,6 @@ th, td{
 }
 #btn-cambiar-color{
   color:green;
+  font-size: 20px;
+  border: solid 1px black;
 }
