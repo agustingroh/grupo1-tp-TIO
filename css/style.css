@@ -1,0 +1,15 @@
+table{
+   color:gray; 
+   border: solid 2px black;
+}
+
+th, td{
+    border: solid 1px black;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn-cambiar-color{
+  color:green;
+  font-size: 20px;
+  border: solid 1px black;
+}

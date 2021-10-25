@@ -8,5 +8,10 @@ function cambiarColor(){
     document.querySelector("#tabla-integrante").classList.remove("gris");
 }
 
+document.querySelector("#btn-cambiar-tamanio").addEventListener(click,cambiarTamanio);
 
+function cambiarTamanio(){
+    document.querySelector("#tabla-docentes").classList.add("grande");
+    document.querySelector("#tabla-docentes").classList.remove("chico");
+}
 });
