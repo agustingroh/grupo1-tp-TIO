@@ -4,9 +4,7 @@ window.addEventListener("DOMContentLoaded",()=>{
 document.querySelector("#btn-cambiar-color").addEventListener("click",cambiarColor);
 
 function cambiarColor(){
-    console.log("btn");
-   // document.querySelector("#tabla-integrante").classList.toggle("verde");
-    document.querySelector("#tabla-integrante").classList.toggle("azul");
+    document.querySelector("#color-head").classList.toggle("azul");
 }
 
 document.querySelector("#btn-cambiar-tamanio").addEventListener("click",cambiarTamanio);

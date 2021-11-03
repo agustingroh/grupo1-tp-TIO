@@ -8,7 +8,10 @@ body{
   display:flex;
 }
 .tabla{
-  height:500px;
+  height:650px;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
 }
 
 table{
@@ -17,21 +20,22 @@ table{
 }
 
 th, td{
+    text-align: center;
     border: solid 1px black;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.verde{
-  color:green;
+.default{
+ color: #ffbf00;
 }
 
 .azul{
-  color:blue;
+  color:#0087ff;
 }
 
 .aumentar{
-  width:600px;
+  width:60%;
 }
 
 #btn-cambiar-color, #btn-cambiar-tamanio{
@@ -39,9 +43,43 @@ th, td{
   border: solid 1px black;
   margin-left:20px;
   margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 footer{
-  height:50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: black;
+  height:200px;
   text-align:center;
 }
+
+p{
+  color:white;
+  font-size: 20px;
+  margin-top:10px;
+}
+
+.contenedor-principal{
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap;
+  flex-direction: column;  
+
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+
+}
+
+.contenedor-botones{
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+ 
+}
+
