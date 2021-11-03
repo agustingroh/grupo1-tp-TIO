@@ -1,17 +1,17 @@
 window.addEventListener("DOMContentLoaded",()=>{
 "use strict";
 
-document.querySelector("#btn-cambiar-color").addEventListener(click,cambiarColor);
+document.querySelector("#btn-cambiar-color").addEventListener("click",cambiarColor);
 
 function cambiarColor(){
-    document.querySelector("#tabla-integrante").classList.add("verde");
-    document.querySelector("#tabla-integrante").classList.remove("gris");
+    console.log("btn");
+   // document.querySelector("#tabla-integrante").classList.toggle("verde");
+    document.querySelector("#tabla-integrante").classList.toggle("azul");
 }
 
-document.querySelector("#btn-cambiar-tamanio").addEventListener(click,cambiarTamanio);
+document.querySelector("#btn-cambiar-tamanio").addEventListener("click",cambiarTamanio);
 
 function cambiarTamanio(){
-    document.querySelector("#tabla-integrantes").classList.add("grande");
-    document.querySelector("#tabla-integrantes").classList.remove("chico");
+    document.querySelector("#tabla-integrante").classList.toggle("aumentar");
 }
 });

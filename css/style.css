@@ -12,7 +12,6 @@ body{
 }
 
 table{
-   color:gray; 
    border: solid 2px black;
    margin:20px;
 }
@@ -22,6 +21,19 @@ th, td{
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.verde{
+  color:green;
+}
+
+.azul{
+  color:blue;
+}
+
+.aumentar{
+  width:600px;
+}
+
 #btn-cambiar-color, #btn-cambiar-tamanio{
   font-size: 20px;
   border: solid 1px black;
